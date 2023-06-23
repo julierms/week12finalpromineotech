@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink App</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="drinkType">Drink Type</label>
+                        <input type="text" name="drinkType" id="drinkType">
+                    </div>
+                    <div>
+                        <label for="addOns">Add Ons</label>
+                        <input type="text" name="addOns" id="addOns">
+                    </div>
+                    <div>
+                        <label for="iceLevel">Ice Level</label>
+                        <input type="number" name="iceLevel" id="iceLevel">
+                    </div>
+                    <div>
+                        <label for="drinkPrice">Price</label>
+                        <input type="number" name="drinkPrice" id="drinkPrice">
+                    </div>
+
+                    <div class="form-action--button">
+                        <input type="Submit" value="Submit">
+                        <input type="Reset" value="Reset">
+                    </div>
+                </form>
+
+            </td>
+            <table class="list" id="storeList">
+                <thead>
+                    <tr>
+                        <th>Drink Type</th>
+                        <th>Add Ons</th>
+                        <th>Ice Level</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./week12final.js"></script>
+</body>
+</html>

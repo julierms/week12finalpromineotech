@@ -1,0 +1,73 @@
+body
+{
+background-image: url('boba.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+table
+{
+width: 80%;
+margin: 40px auto;
+background: rgb(252, 198, 128);
+}
+
+table.list
+{
+text-align: center;
+width: 100%;
+}
+
+td
+{
+border: 1px solid rgb(163, 93, 255);
+text-align: left;
+padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr
+{
+background-color: aliceblue;
+}
+
+input[type="text"],input[type="number"]
+{
+background: whitesmoke;
+padding: 6px 12px;
+margin: 15px 0 10px;
+display: inline-block;
+border: none;
+border-radius: 30px;
+font-size: 1rem;
+cursor: pointer;
+outline: none;    
+}
+
+input[type="submit"]:hover
+{
+background: rgb(119, 20, 211);
+}
+
+input[type="reset"]:hover
+{
+background: rgb(252, 191, 111);    
+}
+
+button
+{
+background: whitesmoke;
+padding: 6px 12px;
+margin: 15px 0 10px;
+display: inline-block;
+border: none;
+border-radius: 30px;
+font-size: 1rem;
+cursor: pointer;
+outline: none; 
+}
+
+button:hover
+{
+background: rgb(255, 47, 144);
+}
